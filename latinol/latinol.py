@@ -13,7 +13,7 @@ RULES = ((ur'cc', ur'ks'),
          (ur'qu([eiéí])', ur'k\1'),
          (ur'ü', ur'u'),
          (ur'q([aouáóú])', ur'k\1'),
-         (ur'w', ur'gu'),
+         (ur'w(\S|.|$)', ur'gu\1'),
          (ur'y([^aeiouáóúéí]|$)', ur'i\1'))
 
 
