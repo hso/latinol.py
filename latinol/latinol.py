@@ -3,7 +3,8 @@ import re
 from functools import partial
 
 
-RULES = ((ur'c([aourtláóú])', ur'k\1'),
+RULES = ((ur'cc', ur'ks'),
+         (ur'c([aourtláóú])', ur'k\1'),
          (ur'c([eiéí])', ur's\1'),
          (ur'g([eiéí])', ur'j\1'),
          (ur'gu([eiéí])', ur'g\1'),
